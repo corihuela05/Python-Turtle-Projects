@@ -1,0 +1,16 @@
+import turtle
+t=turtle.Turtle()
+scrn=turtle.Screen()
+colorlist=['red','white','blue', 'yellow', 'green']
+t.speed(10)
+scrn.bgcolor("black")
+for i in range(5):
+    t.down()
+    for color in colorlist:
+        t.color(color)
+        t.pensize(3)
+        for l in range(4):
+            t.left(12)
+            t.fd(200)
+            t.left(90)
+       
