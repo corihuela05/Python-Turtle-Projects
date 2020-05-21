@@ -1,0 +1,12 @@
+import turtle
+t=turtle.Turtle()
+screen=turtle.Screen()
+colors=['red','blue','yellow','orange','magenta','gray','white']
+t.pensize(5)
+t.speed(4)
+
+for i in range(6):  
+    for color in colors:
+        t.color(color)
+        t.circle(100)
+        t.left(25)
